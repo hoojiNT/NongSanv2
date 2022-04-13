@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32203.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NongSanv2", "NongSanv2\NongSanv2.csproj", "{22329768-FAC4-4FDC-AD89-FBEE6BF8E3B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NongSanv2.core", "NongSanv2.core\NongSanv2.core.csproj", "{7C974823-12B3-4862-AC49-404E426208D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22329768-FAC4-4FDC-AD89-FBEE6BF8E3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22329768-FAC4-4FDC-AD89-FBEE6BF8E3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22329768-FAC4-4FDC-AD89-FBEE6BF8E3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22329768-FAC4-4FDC-AD89-FBEE6BF8E3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C974823-12B3-4862-AC49-404E426208D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C974823-12B3-4862-AC49-404E426208D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C974823-12B3-4862-AC49-404E426208D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C974823-12B3-4862-AC49-404E426208D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27321659-9B71-4432-B273-218CA764DD31}
+	EndGlobalSection
+EndGlobal
