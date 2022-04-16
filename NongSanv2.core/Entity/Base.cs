@@ -46,6 +46,7 @@ namespace NongSanv2.core.Entity
     {
         public string? ProductName { get; set; }
         public string? ProductTypeId { get; set; }
+        public double Price { get; set; }
         public DateTime? ExpriredDate { get; set; }
         public DateTime? ManufacturingDate { get; set; }
         public ProductType? ProductType { get; set; }
@@ -71,6 +72,20 @@ namespace NongSanv2.core.Entity
         public int Order { get; set; }
         public string Url { get; set; }
         public int ParentId { get; set; }
+    }
+    public class Order : Base
+    {
+        public IList<OrderDetail> OrderDetails { get; set; }
+        public int  ContactId { get; set; }
+        public Contact? Contact { get; set; }
+        public double ShippingFee { get; set; }
+        public int Status { get; set; }
+    }
+    public class OrderDetail : Base
+    {
+        public int ProductId { get; set; }
+        public int Amount { get; set; } 
+        public Product? Product { get; set; }
     }
 
 }
